@@ -1,0 +1,34 @@
+#!/bin/sh
+clear
+echo -e "Welcome to \\e[1mGarden \\e[32mLinux \\e[31mLive\\e[0m (/init)"
+
+# prepare
+/bin/mount -t devtmpfs none /dev
+/bin/mount -t proc none /proc
+/bin/mount -t tmpfs none /tmp -o mode=1777
+/bin/mount -t sysfs none /sys
+/bin/mkdir -p /dev/pts
+/bin/mount -t devpts none /dev/pts
+
+echo " "
+
+echo "----------------------------------------------------"
+echo " "
+echo " TEXT EDITOR:"
+echo "   tte, edit, editor"
+echo " "
+echo -e " C COMPILER ( see: \\e[32m/temp/tcc_compile.txt /temp/hello.c \\e[0m ):"
+echo "   tcc"
+echo " "
+echo "----------------------------------------------------"
+echo " "
+echo -e "Hello World: \\e[32mJesus cristo \\e[1meh o meu Senhor. \\e[0m (/init)"
+echo " "
+
+echo "STARTING: exec /bin/init"
+exec /bin/init
+
+echo "STARTING /bin/sh"
+/bin/sh
+
+
