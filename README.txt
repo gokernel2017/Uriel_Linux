@@ -17,3 +17,8 @@ title Uriel Linux BETA
   kernel /vmlinuz
   initrd /uriel_rootfs.cpio.gz
 # -------------------------------------
+
+USAGE: Using the image ( .iso ) with qemu:
+
+  qemu-system-x86_64 -cdrom Uriel_Linux_0.90.0_BETA_64_Bits.iso
+  
