@@ -8,6 +8,7 @@
    //
    06 - http://minimal.linux-bg.org/
    07 - http://puppylinux.com/
+   08 - https://www.qemu.org/
  ----------------------------------------------
 
 Uriel Linux BETA:
