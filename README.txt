@@ -11,6 +11,9 @@
    08 - https://www.qemu.org/
  ----------------------------------------------
 
+Releases:
+https://github.com/gokernel2017/Uriel_Linux/releases
+
 Uriel Linux BETA:
 
 Mini Linux Distro 64 bits
